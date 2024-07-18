@@ -17,6 +17,7 @@ apt update
 apt upgrade -y 
 pkg install bash
 pkg install php
+pip install php
 pkg install pv -y 
 apt install figlet -y  
 echo -e "\033[31m\033[1m        INSTALLATION COMPLETED \033[32m[\033[36m✓\033[32m]" | pv -qL 12
